@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Estudiante"
+
+            android:title="Estudiante" />
+        <item
+            android:id="@+id/nav_Administrador"
+
+            android:title="Administrador" />
+        <item
+            android:id="@+id/nav_Matriculador"
+
+            android:title="Matriculador" />
+        <item
+            android:id="@+id/nav_Profesor"
+
+            android:title="Profesor" />
+    </group>
+
+</menu>
