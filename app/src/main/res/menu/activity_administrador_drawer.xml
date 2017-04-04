@@ -3,21 +3,32 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_Estudiante"
+            android:id="@+id/nav_Carrera"
 
-            android:title="Estudiante" />
+            android:title="Carrera" />
+
         <item
-            android:id="@+id/nav_Administrador"
+            android:id="@+id/nav_Ciclo"
 
-            android:title="Administrador" />
+            android:title="Ciclo" />
+
         <item
-            android:id="@+id/nav_Matriculador"
+            android:id="@+id/nav_Personas"
 
-            android:title="Matriculador" />
+            android:title="Personas" />
         <item
-            android:id="@+id/nav_Profesor"
+            android:id="@+id/nav_Cursos"
 
-            android:title="Profesor" />
+            android:title="Cursos" />
+        <item
+            android:id="@+id/nav_Grupos"
+
+            android:title="Grupos" />
+
+        <item
+            android:id="@+id/nav_Loguot"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Logout" />
     </group>
 
 </menu>

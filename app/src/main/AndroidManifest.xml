@@ -20,16 +20,19 @@
             android:name=".Estudiante"
             android:label="@string/title_activity_estudiante"
             android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".Administrador"
+            android:label="@string/title_activity_administrador"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Administrador"
-            android:label="@string/title_activity_administrador"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+
         <activity
             android:name=".Profesor"
             android:label="@string/title_activity_profesor"

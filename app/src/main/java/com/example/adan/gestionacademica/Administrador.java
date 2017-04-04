@@ -82,15 +82,20 @@ public class Administrador extends AppCompatActivity
 
 
             // Handle the camera action
-       if (id == R.id.nav_Estudiante) {
+       if (id == R.id.nav_Carrera) {
 
-        } else if (id == R.id.nav_Profesor) {
+        } else if (id == R.id.nav_Personas) {
 
-        } else if (id == R.id.nav_Administrador) {
+        } else if (id == R.id.nav_Grupos) {
 
-        } else if (id == R.id.nav_Matriculador) {
+        } else if (id == R.id.nav_Ciclo) {
 
         }
+         else if (id == R.id.nav_Cursos) {
+
+        } else if (id == R.id.nav_logout) {
+
+    }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
